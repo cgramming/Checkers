@@ -1,9 +1,9 @@
 #ifndef BOARD_H_INCLUDED
 #define BOARD_H_INCLUDED
 
-// this is a move function. it checks for proper coin and player and returns 1 on success and 0 on fail
+//// this is a move function. it checks for proper coin and player and returns 1 on success and 0 on fail
 int place(int player,int froms,int tos)
- {
+{
 int token=0;
             a[tos] = a[froms]; c[tos]= c[froms]; a[froms] = ' ';
             //checking for queen ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~begin ~
@@ -37,6 +37,7 @@ else if ((player == 2 || c[froms]==2 )&& green == 0 && tos == froms -3 ) coin =1
  //this function has two functionalities 1) check for double move and if valid then kill the middle coin.
  int doubleM(int player,int froms,int tos)
  {
+
      int coin = 0;
      int green =0;
      int temp[16] = {5,6,7,8,13,14,15,16,21,22,23,24,29,30,31,32};
