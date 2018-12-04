@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1543881246 source:c:\cpp\checkers\main.cpp
+	<iostream>
+	<conio.h>
+	<windows.h>
+	"board.h"
+
+1543882303 c:\cpp\checkers\board.h
+
