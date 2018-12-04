@@ -2,6 +2,7 @@
 #include<conio.h>
 #include <windows.h>
 using namespace std;
+
 char a[33]={' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' ',' '};
 int c[42]={8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,8,8,8,8,8,8,8,8};
 int out1=12;
@@ -13,7 +14,6 @@ const char X ='X';
 const char O ='O';
 const char Q1 ='#';
 const char Q2 ='Q';
-
 #include"board.h"
 //int places = 14;
 int main()
